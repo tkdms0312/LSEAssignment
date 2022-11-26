@@ -46,11 +46,7 @@ def split_dataset(dataset_df, testset_size):
 	X = dataset_df.drop(columns="target", axis=1)
 	Y = dataset_df["target"]
 	x_Train, x_Test, y_Train, y_Test = train_test_split(X, Y, test_size=testset_size)
-    #x = dataset_df.drop(columns="target", axis=1)
-	#x = dataset_df_data
-	#y = dataset_df["target"]
-	#y = dataset_df.target
-	#x_train, x_test, y_train, y_test = train_test_split(x, y, testset_size, random_state=1)
+	
 	return x_Train, x_Test, y_Train, y_Test
     
 def decision_tree_train_test(x_train, x_test, y_train, y_test):
