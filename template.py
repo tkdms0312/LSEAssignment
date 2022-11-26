@@ -1,5 +1,5 @@
 #PLEASE WRITE THE GITHUB URL BELOW!
-#https://github.com/tkdms0312/opensourceAssignment.git
+#https://github.com/tkdms0312/LSEAssignment.git
 
 import sys
 import pandas as pd
